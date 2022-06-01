@@ -251,7 +251,7 @@ let img = document.createElement('img');
 headline.textContent = 'Random Image';
 btn.textContent = 'Click Me';
 btn.style.display = 'block';
-btn.style.marginBottom = '1vh';
+
 
 img.style.width = '50%';
 
@@ -260,12 +260,6 @@ div.appendChild(btn);
 div.appendChild(img);
 
 btn.onclick = function() {
-        random();
-    }
-    // console.log(data.length);
-
-
-const random = () => {
     let randomNumber = Math.floor(Math.random() * data.length);
     console.log(randomNumber);
 
