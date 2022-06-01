@@ -251,8 +251,9 @@ let img = document.createElement('img');
 headline.textContent = 'Random Image';
 btn.textContent = 'Click Me';
 btn.style.display = 'block';
+btn.style.marginBottom = '1vh';
 
-img.style.width = '100%';
+img.style.width = '50%';
 
 div.appendChild(headline);
 div.appendChild(btn);
